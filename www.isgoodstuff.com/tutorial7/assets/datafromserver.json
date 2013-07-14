@@ -1,0 +1,9 @@
+{
+	"data":{
+		"name":"Mr. Robert Kawasaki",
+		"password":"robert",
+		"isMember":true,
+		"membertype":"Gold",
+		"address":"University of Southern California Los Angeles, CA 90033."
+	}
+}

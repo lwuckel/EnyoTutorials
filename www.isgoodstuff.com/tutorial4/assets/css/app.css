@@ -1,0 +1,24 @@
+/*************************************************************************/
+/* This is your enyo's app.css.
+/* Either link them up in index.html (if you prefer to compress yourself) 
+/* or have them linked in source's package.js. In this sample, it's linked
+/* using source's package.js
+/*************************************************************************/
+
+.padding15px {
+	padding:15px !important;
+}
+
+.orangeBg {
+	background:orange;
+}
+
+.listItemContainer {
+	height:50px;
+	color:#777;
+	font-weight: bold;
+	background: #fff;
+	font-size:1.2em;
+	padding:10px;
+	border-bottom:1px solid gray;
+}

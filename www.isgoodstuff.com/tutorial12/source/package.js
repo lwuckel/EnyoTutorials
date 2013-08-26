@@ -1,0 +1,10 @@
+enyo.depends(
+	"$lib/layout",
+	"$lib/onyx",
+	"$lib/canvas",
+	"../assets/css/app.css",
+	"common",
+	"Footer.js",
+	"Header.js",
+	"App.js"
+);

@@ -1,0 +1,160 @@
+/*************************************************************************/
+/* This is your enyo's app.css.
+/* Either link them up in index.html (if you prefer to compress yourself) 
+/* or have them linked in source's package.js. In this sample, it's linked
+/* using source's package.js
+/*************************************************************************/
+
+.padding15px {
+	padding:15px !important;
+}
+
+.padding10px {
+	padding:10px !important;
+}
+
+.padding5px {
+	padding:5px !important;
+}
+
+.orangeBg {
+	background:orange;
+}
+
+.formBg {
+	background: #ddd !important;
+}
+
+button {
+	padding:10px;
+}
+
+p {
+	color:#fff;
+}
+
+.inputStyler {
+	width:100%;
+	background:#fff;
+	-webkit-border-radius:7px !important;
+	-moz-border-radius:7px !important;
+	border-radius:7px !important
+	-moz-box-shadow:    inset 0 0 15px #ccc;
+    -webkit-box-shadow: inset 0 0 15px #ccc;
+    box-shadow:         inset 0 0 15px #ccc;
+    border:1px solid #aaa;
+}
+
+.listItemContainer {
+	height:50px;
+	color:#777;
+	font-weight: bold;
+	background: #fff;
+	font-size:1.2em;
+	padding:10px;
+	border-bottom:1px solid gray;
+}
+
+.specialBar {
+	background: #1c1c1d !important;
+	border-top:2px solid #2e2e30;
+	border-bottom:2px solid #2e2e30;
+	min-height:40px !important;
+	-moz-box-shadow:    inset 0 0 8px #000;
+    -webkit-box-shadow: inset 0 0 8px #000;
+    box-shadow:         inset 0 0 8px #000;
+}
+
+.contentBg {
+	background: #505358 !important;
+}
+
+.center {
+	text-align: center;
+}
+
+/*** Onyx button has 3 states; the normal state, hover/active and disabled **********/
+/*** When styling onyx stuff, best to set !important in every css properties ********/
+.centerButton {
+	border:2px solid #ddd !important;
+	background: #fff !important;
+	color:#333 !important;
+	font-size:1.2em !important;
+	padding:10px !important;
+	height:50px !important;
+	font-weight: bolder;
+	text-shadow: none !important;
+}
+
+.onyx-button.fullScreenButton {
+	width:100%;
+	margin:0px !important;
+	padding:0px !important;
+	border-top:none !important;
+	background-image: -webkit-gradient(linear, left top, left bottom, from( #cf2716 ), to( #ab2519 )) !important; 
+	background-image: -webkit-linear-gradient( #cf2716 , #ab2519 ) !important; 
+	background-image:    -moz-linear-gradient( #cf2716 , #ab2519 ) !important; 
+	background-image:     -ms-linear-gradient( #cf2716 , #ab2519 ) !important; 
+	background-image:      -o-linear-gradient( #cf2716 , #ab2519 ) !important; 
+	background-image:         linear-gradient( #cf2716 , #ab2519 ) !important;
+	color:#fff;
+	height:45px !important;
+	font-weight: bold
+}
+
+.onyx-button.fullScreenButton:active:hover:not([disabled]) {
+	width:100%;
+	margin:0px !important;
+	padding:0px !important;
+	height:45px !important;
+	border-top:none !important;
+	background:green !important;
+	color:#fff;
+}
+
+textarea {
+	font-family: 'Helvetica', 'Nimbus Sans L', Arial, sans-serif;
+	height:80px;
+}
+
+.onyx-radiobutton {
+	font-weight: bold;
+	background-image: -webkit-gradient(linear, left top, left bottom, from( #cf2716 ), to( #ab2519 )) !important; 
+	background-image: -webkit-linear-gradient( #cf2716 , #ab2519 ) !important; 
+	background-image:    -moz-linear-gradient( #cf2716 , #ab2519 ) !important; 
+	background-image:     -ms-linear-gradient( #cf2716 , #ab2519 ) !important; 
+	background-image:      -o-linear-gradient( #cf2716 , #ab2519 ) !important; 
+	background-image:         linear-gradient( #cf2716 , #ab2519 ) !important;
+	color:#fff;
+	width:95px;
+	border:1px solid maroon;
+}
+
+.onyx-radiobutton.active {
+	background:gold !important;
+} 
+
+.onyx-toolbar{
+	background-color:#000 !important;
+	color:#fff !important;
+	background-image: -webkit-gradient(linear, left top, left bottom, from( #27262a ), to( #000 )) !important; 
+	background-image: -webkit-linear-gradient( #27262a , #000 ) !important; 
+	background-image:    -moz-linear-gradient( #27262a , #000 ) !important; 
+	background-image:     -ms-linear-gradient( #27262a , #000 ) !important; 
+	background-image:      -o-linear-gradient( #27262a , #000 ) !important; 
+	background-image:         linear-gradient( #27262a , #000 ) !important;
+	border-top:none !important;
+	border-left:none !important;
+	border-right:none !important;
+	color:#fff !important;
+	height:45px !important;
+	padding:0px !important;
+	margin:0px !important;
+}
+
+.headerTextTitle {
+	font-size:1em !important;
+	color:#fff !important;
+	text-shadow: 0px -2px 2px rgba(0,0,0,.3) !important;
+	line-height: 50px !important;
+}

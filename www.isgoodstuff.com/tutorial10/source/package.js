@@ -1,0 +1,9 @@
+enyo.depends(
+	"$lib/layout",
+	"$lib/onyx",
+	"../assets/css/app.css",
+	"Footer.js",
+	"ContentHasNodeLoader.js",
+	"Header.js",
+	"App.js"
+);

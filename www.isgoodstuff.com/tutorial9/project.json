@@ -1,0 +1,104 @@
+{
+  "id": "com.examples.apps.myapp",
+  "name": "tutorial9",
+  "version": "0.0.1",
+  "title": "Example: My Application",
+  "description": "Description of My Application",
+  "author": {
+    "name": "An Example Company",
+    "href": "http://www.example.com"
+  },
+  "providers": {
+    "phonegap": {
+      "enabled": false,
+      "autoGenerateXML": true,
+      "features": {
+        "battery": false,
+        "camera": false,
+        "contact": false,
+        "file": false,
+        "geolocation": false,
+        "media": false,
+        "network": false,
+        "notification": false,
+        "device": false
+      },
+      "preferences": {
+        "phonegap-version": "2.9.0",
+        "orientation": "both",
+        "target-device": "universal",
+        "fullscreen": "false",
+        "webviewbounce": "true",
+        "prerendered-icon": "false",
+        "ios-statusbarstyle": "black-opaque",
+        "detect-data-types": "true",
+        "exit-on-suspend": "false",
+        "show-splash-screen-spinner": "false",
+        "auto-hide-splash-screen": "true",
+        "android-installLocation": "internalOnly",
+        "android-minSdkVersion": "false",
+        "android-maxSdkVersion": "black-opaque",
+        "splash-screen-duration": "true",
+        "load-url-timeout": "false",
+        "disable-cursor": "false"
+      },
+      "icon": {
+        "general": {
+          "src": "",
+          "role": "default"
+        },
+        "android": {
+          "src": "",
+          "density": ""
+        },
+        "ios": {
+          "src": "",
+          "height": "",
+          "width": ""
+        },
+        "winphone": {
+          "src": ""
+        },
+        "blackberry": {
+          "src": ""
+        },
+        "webos": {
+          "src": ""
+        }
+      },
+      "splashScreen": {
+        "general": {
+          "src": "",
+          "role": "default"
+        },
+        "android": {
+          "src": "",
+          "density": ""
+        },
+        "ios": {
+          "src": "",
+          "height": "",
+          "width": ""
+        },
+        "winphone": {
+          "src": ""
+        },
+        "blackberry": {
+          "src": ""
+        },
+        "webos": {
+          "src": ""
+        }
+      },
+      "plugins": {},
+      "access": {
+        "origin": "http://127.0.0.1"
+      },
+      "targets": {},
+      "appId": ""
+    }
+  },
+  "preview": {
+    "top_file": "/debug.html"
+  }
+}
